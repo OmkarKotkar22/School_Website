@@ -1,0 +1,628 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    background-color: rgba(255,232,232,0.5);
+}
+
+.header1{
+    color: black;
+    /* background-color:#ddd; */
+}
+
+.contact_icon li i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #f6d9d9;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.social_icon li i{
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #f6d9d9;
+    text-align: center;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.contact_icon li :hover{
+    color: white;
+    background-color: orangered;
+}
+.social_icon li :hover{
+    color: white;
+    background-color: orangered;
+}
+.main_menu{
+    height: auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: rgba(240,222,232,0.8);
+}
+
+.main_menu img{
+    height: 130px;
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+
+@media (max-width:667px){
+    .main_menu{
+        height: auto;
+        width: auto;
+    }
+    .main_menu img {
+        height: 130px;
+        width: 50%;
+    } 
+    .main_menu .navbar-toggler {
+        /* margin-top: -90px; */
+        height: auto;
+        width: auto;
+    } 
+}
+/* @media (max-width:750px){
+    .main_menu img {
+        height: 130px;
+        width: auto;
+    } 
+}
+@media (max-width:900px){
+    .main_menu img {
+        height: 130px;
+        width: auto;
+    } 
+}
+@media (max-width:1100px){
+    .main_menu img {
+        height: 130px;
+        width: 100%;
+    } 
+} */
+
+.nav-item{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav-link{
+    color: #75002d !important;
+    text-transform: uppercase;
+}
+.navbar-nav .active .nav-link{
+    border-bottom: 2px groove #75002d;
+}
+
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px groove #75002d;
+    color: rgb(255, 255, 255);
+}
+.nav-item:hover a {
+    color:#12003a !important;
+}
+
+.section1{
+    height: auto;
+    width: 100%;
+}
+
+.marquee1 marquee{
+    width: 100%;
+    margin-bottom: -6px;
+    background-image: linear-gradient(to right,  rgb(245, 19, 46),rgb(255, 170, 0), yellow);
+}
+
+.section2{
+    height: auto;
+    width: 100%;
+}
+
+.slider1{
+    height: auto;
+    width: 100%;
+}
+.slider1 img {
+    height: 500px;
+    width: 100%;
+    /* filter:blur(10px); */
+}
+
+.carousel-caption1{
+    width: 40%;
+    float: left;
+    top: 150px;
+    left:120px;
+    position: absolute;
+}
+.carousel-caption2{
+    width: 40%;
+    float: left;
+    top: 150px;
+    right:100px;
+    position: absolute;
+}
+
+.section2 .carousel-item button{
+    height: 50px;
+    width:150px;
+    background-color: #75002d;
+    border-radius: 30px;
+}
+.section2 .slider1 a{
+    color: white;
+}
+.section2 .slider1 a:hover{
+    color: black;
+}
+
+.section2 .carousel-item button:hover{
+    background-color: rgb(222, 245, 152);
+}
+
+@media (max-width:900px){
+    .slider1 img {
+        height: 600px;
+    }
+    .carousel-caption button{
+        width: 37%; 
+    }
+}
+@media (max-width:750px){
+    .slider1 img {
+        height: 700px;
+    }
+    .carousel-caption button{
+        width: 37%; 
+    }
+}
+@media (max-width:667px){
+    .slider1 img {
+        height: 850px;
+    }
+    .carousel-caption button{
+        width: 37%; 
+    }
+}
+
+.section3{
+    height: auto;
+    width: 100%;
+    margin-bottom: 15%;
+    /* background-color: #ddd; */
+}
+
+.marquee2{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5%;
+    /* background-color: #ddd; */
+}
+
+.marquee2 h2{
+    margin-top: 80px;
+}
+
+.marquee2 img{
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+    /* border: 2px groove black; */
+    border-radius: 20px;
+    /* background-color: #ddd; */
+}
+
+@media (max-width:667px){
+    .section3 {
+        margin-bottom: 50%;
+    }
+}
+
+
+.section4{
+    height: auto;
+    width: 100%;
+    float: left;
+    margin-top: 3%;
+    /* background-color: #ddd; */
+}
+
+.about_section {
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: #ddd; */
+}
+
+.about_img img{
+    height: 300px;
+    width: 95%;
+    float: left;
+}
+
+.about_img img{
+    box-shadow: 5px 11px 15px rgb(250, 175, 175);
+}
+
+.about_paragraph{
+    float: left;
+    width: 95%;
+}
+
+.about_paragraph p{
+    text-align: justify;
+    line-height: 2;
+    word-spacing: 5px;
+    padding-left: 40px;
+}
+
+/* @media (max-width:667px){
+    .section4 h2{
+        margin-left: 50px;
+    }  
+    .section4 h5{
+        margin-left: 50px;
+    }
+} */
+
+.section5{
+    height: auto;
+    width: 100%;
+    /* margin-top: 3%; */
+    /* margin-bottom: 3%; */
+    /* background-color: #ddd; */
+}
+
+.facility_section h2{
+    margin-top: 70px;
+}
+
+.facility_section .card{
+    border-radius: 20px;
+    box-shadow: 0px 5px 22px rgb(250, 175, 175);
+}
+
+.card .facility_icon{
+    font-size: 30px;
+}
+
+.card-body{
+    height: 280px;
+    width: 100%;
+}
+
+.card-title{
+    color: #40394F;
+}
+
+.card-text{
+    color: black;
+    text-align: justify;
+    font-style: italic;
+}
+
+/* @media (max-width:667px){
+    .section5 h2{
+        margin-left: 50px;
+    }
+} */
+
+.card{
+    transition: all 0.3s;
+}
+
+.section5 .card:hover{
+    transform: scale(1.04);
+}
+
+.facility_section .card-body:hover {
+    transition:0.8s;
+    color: white;
+    background-color: rgba(227, 165, 165, 0.356);
+}
+
+
+.section6{
+    height: auto;
+    width: 100%;
+    /* margin-bottom: 5%; */
+    /* background-color: #ddd; */
+}
+
+.our_inspiration{
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.about_VIP{
+    height: auto;
+    width: 100%;
+    /* background-color: #ddd; */
+}
+.about_VIP .card{
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 5%;
+    box-shadow: 0px 3px 12px rgb(250, 175, 175);
+}
+
+.section6 .card{
+    transition: all 0.3s;
+}
+
+.section6 .card:hover{
+    transform: scale(1.04);
+}
+
+.VIP_card{
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.about_VIP .card img{
+    height: 200px;
+    width: 100%;
+
+}
+
+/* .card-wrapper {
+    padding: 0 15px;
+} */
+
+@media (max-width: 768px) {
+    .card-wrapper {
+        padding: 0;
+    }
+}
+@media (max-width: 667px) {
+    .our_inspiration{
+        margin-left: 0px;
+    }
+    .VIP_card{
+        .card-title{
+            margin-left: 130px;
+        }
+        .card-text{
+            margin-left: 122px;
+        }
+    }
+    .section6 p{
+        padding: 0;
+    }
+}
+
+.section7{
+    height: auto;
+    width: 100%;
+    /* background-color: #ddd; */
+    padding-top: 5%;
+}
+
+.school_level1{
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+    /* background-color: #ddd; */
+}
+
+.school_level1 .card{
+    height: 210px;
+    text-align: center;
+    box-shadow: 0px 3px 12px rgb(250, 175, 175);
+}
+
+.school_level1 .card h5{
+    color: black;
+    background-color: rgb(250, 199, 175);
+    margin-top:-30px ;
+}
+
+@media (max-width: 667px) {
+    .section7 .card{
+        margin-bottom: 10%;
+    }
+}
+
+.section8{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 15%;
+    /* background-color: #ddd; */
+}
+
+.slider2{
+    height: 500px;
+    width: 100%;
+    /* background-color: #ddd; */
+}
+.slider2 img{
+    height: 450px;
+    width: 100%;
+}
+
+@media (max-width:667px){
+    .section8{
+        margin-bottom: 50%;
+    }
+    .LIFE_AT_YFIS{
+        margin-left: 0px;
+    }
+
+
+}
+
+.section9{
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* background-color: #ddd; */
+}
+
+.school_icons{
+    height: auto;
+    width: 100%;
+    /* box-shadow: 0px 3px 12px rgb(250, 175, 175); */
+}
+
+.why_YFIS{
+    margin-top: 5%;
+}
+
+.icon1 img{
+    justify-content: center;
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+}
+
+@media (max-width: 667px) {
+    /* .why_YFIS h1{
+        margin-left: 50px;
+    } */
+    .icon1 img{
+        justify-content: center;
+        width: auto;
+        margin-left: 30%;
+        /* margin-top: 50px; */
+    }
+    .why_YFIS{
+        margin-top: 15%;
+    }
+    .school_icons p{
+        justify-content: center;
+        margin-left: 25%;
+    }
+}
+
+.section10{
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.testimonial_card{
+    height: auto;
+    width: 100%;
+}
+
+/* .card1{
+    display: inline-block;
+} */
+
+.testimonial_card .card{
+    height: 470px;
+    width: 90%;
+    float: left;
+    margin-left: 37px;
+    margin-top: 3%;
+    display: flex;
+    margin-left: -10px;
+    box-shadow: 0px 3px 12px rgb(250, 175, 175);
+
+}
+
+.section10 .card1{
+    transition: all 0.3s;
+}
+
+.card1:hover{
+    transform: scale(1.04);
+}
+
+.testimonial_card .card1 img{
+    height: 200px;
+    width: 100%;
+
+}
+
+
+.footer{
+    height: auto;
+    width: 100%;
+    background:linear-gradient(to right, rgba(231, 57, 101, 0.8),rgba(239, 113, 145, 0.8),rgba(229, 149, 182, 0.4)),url('https://png.pngtree.com/thumb_back/fh260/background/20230326/pngtree-gradient-yellow-orange-liquid-wave-background-vector-image_2118702.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-blend-mode: darken; */
+}
+
+.footer_logo{
+    height: auto;
+    width: 100%;
+    /* margin-left: 40px; */
+}
+
+.footer_logo img{
+    height: 200px;
+    width: auto;
+}
+.footer_logo p{
+    height: 200px;
+    width: 100%;
+    text-align: justify;
+    font-weight:500;
+}
+
+.footer_social_icon li i{
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    color: white;
+    background-color: #458b83;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.footer_social_icon li :hover{
+    color: white;
+    background-color: rgb(117, 210, 244);
+}
+.quick_link ul{
+    float: left;
+    margin-top: 50px;
+}
+
+.quick_link li{
+    margin-top: 40px;
+}
+.quick_link li a{
+    color: #75002d;
+    text-decoration: none;
+}
+.quick_link li a:hover{
+    color: rgb(117, 210, 244);
+    text-decoration: none;
+}
+
+.footer_social_icon li i{
+    background-color: #75002d;
+}
+
+.address .addr{
+    margin-top: 20px;
+}
+.last_footer{
+    text-align: center;    
+}

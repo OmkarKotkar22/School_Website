@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    background-color: rgb(255,232,232);
+}
+
+.header1{
+    color: black;
+    /* background-color:#ddd; */
+}
+
+.contact_icon li i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #f6d9d9;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.social_icon li i{
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #f6d9d9;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.contact_icon li :hover{
+    color: white;
+    background-color: orangered;
+}
+.social_icon li :hover{
+    color: white;
+    background-color: orangered;
+}
+.main_menu{
+    height: auto;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: rgba(240,222,232,0.8);
+}
+
+.main_menu img{
+    height: 130px;
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+
+@media (max-width:667px){
+    .main_menu{
+        height: auto;
+        width: auto;
+    }
+    .main_menu img {
+        height: 130px;
+        width: 50%;
+    } 
+    .main_menu .navbar-toggler {
+        /* margin-top: -90px; */
+        height: auto;
+        width: auto;
+    } 
+}
+/* @media (max-width:750px){
+    .main_menu img {
+        height: 130px;
+        width: auto;
+    } 
+}
+@media (max-width:900px){
+    .main_menu img {
+        height: 130px;
+        width: auto;
+    } 
+}
+@media (max-width:1100px){
+    .main_menu img {
+        height: 130px;
+        width: 100%;
+    } 
+} */
+
+.nav-item{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav-link{
+    color: #75002d !important;
+    text-transform: uppercase;
+}
+.navbar-nav .active .nav-link{
+    border-bottom: 2px groove #75002d;
+}
+
+.navbar-nav .nav-link:hover{
+    border-bottom: 2px groove #75002d;
+    color: rgb(255, 255, 255);
+}
+.nav-item:hover a {
+    color:#12003a !important;
+}
+
+.section1{
+    height: auto;
+    width: 100%;
+}
+
+.marquee1 marquee{
+    width: 100%;
+    margin-bottom: -6px;
+    background-image: linear-gradient(to right,  rgb(245, 19, 46),rgb(255, 170, 0), yellow);
+}
+
+.section2{
+    height: auto;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.parent_image{
+    height: 450px;
+    background:linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('https://images.pexels.com/photos/5896836/pexels-photo-5896836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-position: 55% 50%;
+    float: left;
+}
+
+.parent_image .sub_img{
+    width: 40%;
+}
+
+.school_about{
+    height: 600px;
+    float: left;
+}
+
+.school_about img{
+    height: 150px;
+    width: 50%;
+    margin-top: -20px;
+    margin-left: 170px;
+}
+.school_about h3{
+    margin-top: -19px;
+    text-align: center;
+}
+.school_about p{
+    text-align: center;
+}
+
+.school_about input{
+    height: 50px;
+    width: 90%;
+    background-color: #ddd;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 20px;
+    padding-left: 30px;
+    border: none;
+}
+
+.school_about a{
+    margin-left:75% ;
+    text-decoration: none;
+}
+
+.school_about button{
+    height: 50px;
+    width:150px;
+    justify-content: center;
+    margin-left:30px;
+    color: white;
+    background-color: #75002d;
+    border-radius: 50px;
+}
+
+.school_about button:hover{
+    color: black;
+    background-color: rgb(222, 245, 152);
+}
+
+
+
+.footer{
+    height: auto;
+    width: 100%;
+    background:linear-gradient(to right, rgba(231, 57, 101, 0.8),rgba(239, 113, 145, 0.8),rgba(229, 149, 182, 0.4)),url('https://png.pngtree.com/thumb_back/fh260/background/20230326/pngtree-gradient-yellow-orange-liquid-wave-background-vector-image_2118702.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-blend-mode: darken; */
+}
+
+.footer_logo{
+    height: auto;
+    width: 100%;
+    /* margin-left: 40px; */
+}
+
+.footer_logo img{
+    height: 200px;
+    width: auto;
+}
+.footer_logo p{
+    height: 200px;
+    width: 100%;
+    text-align: justify;
+    font-weight:500;
+}
+
+.footer_social_icon li i{
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    color: white;
+    background-color: #458b83;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.footer_social_icon li :hover{
+    color: white;
+    background-color: rgb(117, 210, 244);
+}
+.quick_link ul{
+    float: left;
+    margin-top: 50px;
+}
+
+.quick_link li{
+    margin-top: 40px;
+}
+.quick_link li a{
+    color: #75002d;
+    text-decoration: none;
+}
+.quick_link li a:hover{
+    color: rgb(117, 210, 244);
+    text-decoration: none;
+}
+
+.footer_social_icon li i{
+    background-color: #75002d;
+}
+
+.address .addr{
+    margin-top: 20px;
+}
+.last_footer{
+    text-align: center;    
+}
