@@ -1,11 +1,23 @@
 <h1 align="center">🏫 School Website Management System</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/OmkarKotkar22/School_Website?color=blueviolet" />
-  <img src="https://img.shields.io/github/languages/count/OmkarKotkar22/School_Website?color=ff69b4" />
-  <img src="https://img.shields.io/github/last-commit/OmkarKotkar22/School_Website?color=green" />
-  <img src="https://img.shields.io/github/issues/OmkarKotkar22/Hotel_Palace?color=orange" />
-  <img src="https://img.shields.io/github/stars/OmkarKotkar22/Hotel_Palace?color=yellow" />
+  <!-- Repository Size -->
+  <img src="https://img.shields.io/badge/Repo%20Size-6.9%20MB-1E90FF?style=for-the-badge&logo=github" alt="Repo Size" />
+  
+  <!-- Languages Used -->
+  <img src="https://img.shields.io/badge/Languages%20Used-HTML%2C%20CSS%2C%20PHP-FF69B4?style=for-the-badge&logo=codepen" alt="Languages Used" />
+  
+  <!-- Last Commit -->
+  <img src="https://img.shields.io/badge/Last%20Commit-Nov%202025-32CD32?style=for-the-badge&logo=git" alt="Last Commit" />
+  
+  <!-- Open Issues -->
+  <img src="https://img.shields.io/badge/Open%20Issues-0-FFA500?style=for-the-badge&logo=githubissues" alt="Open Issues" />
+  
+  <!-- GitHub Stars -->
+  <img src="https://img.shields.io/badge/Stars-0-FFD700?style=for-the-badge&logo=github" alt="Stars" />
+  
+  <!-- Project Type -->
+  <img src="https://img.shields.io/badge/Project-School%20Website-8A2BE2?style=for-the-badge&logo=googleclassroom" alt="Project Type" />
 </p>
 
 ---
