@@ -263,7 +263,7 @@
                               <h5 class="card-title" style="color:#00394F;"><i class="fa-solid fa-drum facility_icon  mr-4"></i>Music & Dance</h5>
                               <p class="card-text" style="color: #266f66;">In education, music and dance are vital, fostering creativity, discipline, and cultural appreciation. They enhance cognitive skills, emotional intelligence, and teamwork, enriching students' holistic development and fostering a lifelong passion for the arts.</p>
                             </div>
-                          </div>
+                        </div>
                     </div>
                     <div class="col-md-12 col-lg-6 col-xl-4 mb-4  card1 d-flex justify-content-center">
                         <div class="card wow animate__animated animate__fadeInUp" style="width: 18rem;">
@@ -309,6 +309,7 @@
                         <h1 class="wow animate__animated animate__fadeInUp" style="color: #75002d;">Committed to creating the path for
                             those who change the world.</h1>
                     </div>
+                    
                     <div class="col-12 about_VIP">
                         <div class="col-lg-4 col-md-6 col-sm-12 card-wrapper VIP_card">
                             <div class="card d-flex justify-content-center wow animate__animated animate__fadeInUp" style="border-radius: 20px;">
