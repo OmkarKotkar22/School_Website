@@ -58,7 +58,7 @@
                     <div class="col-12 wow animate__animated animate__bounce">
                         <div class="last_footer ">
                             <p >Copyright © 2024 - YFIS . All rights reserved.
-                                <br>design & developed by Omkar, Siddharth and Soham</p>
+                                <br>design & developed by Omkar, Siddharth</p>
                         </div>
                     </div>
                 </div>
